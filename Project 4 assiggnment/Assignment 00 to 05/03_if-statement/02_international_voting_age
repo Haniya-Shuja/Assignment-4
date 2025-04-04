@@ -1,0 +1,30 @@
+ def main():
+
+            age = int(input("How old are you??"))
+
+            pakistanis_age = 16
+            bangladeshian_age = 20
+            Sri_lankan_age = 28
+
+            if age >=  pakistanis_age:
+            print(f'You can vote for Pakistan where the age is { pakistanis_age}')
+
+ else:
+print(f'You can not vote for Pakistan whwere the age is { pakistanis_age}')
+
+                     if age >=  bangladeshian_age:
+            print(f'You can vote for Pakistan where the age is {bangladeshian_age}')
+
+ else:
+print(f'You can not vote for Pakistan whwere the age is {bangladeshian_age}')
+
+                     if age >=Sri_lankan_age   :
+            print(f'You can vote for Pakistan where the age is {Sri_lankan_age}')
+
+ else:
+print(f'You can not vote for Pakistan whwere the age is {Sri_lankan_age}')
+
+
+
+             if __name__ == '__main__':
+        main()
